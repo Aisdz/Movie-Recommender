@@ -1,17 +1,44 @@
 # 🎬 Movie Recommendation System
-[Movie Dataset](https://drive.google.com/file/d/1iJIxjywm5HxoYytJc0Wn_n-VqLXlIRTJ/view?usp=drive_link)
-## Project Overview
-A content-based recommendation engine built with Python. It analyzes movie plots, genres, and directors to suggest similar movies.
 
-## Key Features
-* **Smart Filtering:** Enforces genre consistency (e.g., Action movies recommend other Action movies).
-* **NLP Engine:** Uses TF-IDF and Cosine Similarity.
-* **Interactive UI:** Built with Streamlit for easy user interaction.
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)
+![ML](https://img.shields.io/badge/ML-TF--IDF%20%7C%20Cosine%20Similarity-green.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 
-## Files
-* `Data_Preprocessing.ipynb`: The code for cleaning data and training the model.
-* `app.py`: The main script for the web application.
+Dataset:  
+[Movie Dataset](https://drive.google.com/file/d/1iJIxjywm5HxoYytJc0Wn_n-VqLXlIRTJY/view?usp=drive_link)
 
-## How to Run
-1. Install libraries: `pip install -r requirements.txt`
-2. Run the app: `streamlit run app.py`
+---
+
+## 📌 Project overview
+This is a content-based movie recommendation system built with Python.  
+It analyzes movie plots, genres, directors, and cast to recommend similar movies.
+
+---
+##  How it works
+- Text preprocessing (cleaning metadata)
+- Feature engineering ("soup")
+- TF-IDF vectorization
+- Cosine similarity computation
+- Genre-based filtering
+- Top-10 recommendations output
+
+## 📁 Project Structure
+app.py
+movies.db
+tfidf_matrix.pkl
+indices.pkl
+movie_dataset.csv
+README.md
+
+---
+##  How to run
+
+### 1. Install dependencies
+```bash
+pip install streamlit pandas numpy scikit-learn
+### 2. Run the app
+streamlit run app.py
+### 3. Open in browser
+http://localhost:8501
+
