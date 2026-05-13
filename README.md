@@ -61,5 +61,8 @@ http://localhost:8501
 ```
 
 
+<img width="1680" height="960" alt="Screenshot 2026-05-13 at 14 52 44" src="https://github.com/user-attachments/assets/c98a594c-5d4e-4377-bd57-a8efdb6d5610" />
+<img width="1680" height="961" alt="Screenshot 2026-05-13 at 14 54 37" src="https://github.com/user-attachments/assets/118dbbec-fe59-4ed1-a84c-1b1eba3b7f86" />
+
 
 
