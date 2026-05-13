@@ -1,3 +1,4 @@
 tfidf_matrix.pkl
 movies.db
 movie dataset.csv
+.DS_Store
